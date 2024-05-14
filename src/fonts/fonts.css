@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 800;
+  src: url("./BeVietnamPro-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 700;
+  src: url("./BeVietnamPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 500;
+  src: url("./BeVietnamPro.ttf");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 400;
+  src: url("./BeVietnamPro-Regular.ttf");
+}

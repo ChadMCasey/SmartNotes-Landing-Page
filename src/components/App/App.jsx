@@ -2,6 +2,7 @@ import React from "react";
 
 // css
 import "./App.css";
+import "../../fonts/fonts.css";
 
 // components
 import Page from "../Page/Page";
@@ -18,9 +19,8 @@ import Footer from "../Footer/Footer";
 const App = () => {
   return (
     <Page>
-      <Header>
-        <Hero />
-      </Header>
+      <Header />
+      <Hero />
       <Testimonial />
       <Features />
       <Testimonial />
