@@ -1,0 +1,24 @@
+.logos {
+  padding: 26px 87px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logos__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: calc(100% / 2);
+  background-color: red;
+}
+
+.logos__overlay_start {
+  left: 0;
+  background: linear-gradient(to left, rgba(8, 8, 8, 0), rgba(8, 8, 8, 1));
+}
+
+.logos__overlay_end {
+  right: 0;
+  background: linear-gradient(to right, rgba(8, 8, 8, 0), rgba(8, 8, 8, 1));
+}

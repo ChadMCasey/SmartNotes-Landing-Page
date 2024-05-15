@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 22px 188px 22px 152px;
+  column-gap: 101px;
 }
 
 .hero__heading {
@@ -9,11 +10,11 @@
   margin-bottom: 16px;
 
   color: var(--primary-100);
-  font-family: "Be Vietnam Pro";
+  font-family: "DM Sans";
   font-weight: 700;
-  font-size: 59px;
+  font-size: 56px;
 
-  letter-spacing: -0.8px;
+  letter-spacing: -2.5px;
   line-height: 106%;
 }
 
@@ -23,13 +24,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 8px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .hero__subheading {
   font-size: 16px;
   color: var(--primary-100);
-  font-family: "Be Vietnam Pro";
+  font-family: "DM Sans";
   font-weight: 400;
   line-height: 150%;
   margin-top: 0px;
@@ -56,7 +57,7 @@
 }
 
 .hero__input::placeholder {
-  font-family: "Be Vietnam Pro";
+  font-family: "DM Sans";
   color: var(--primary-300);
   font-size: 16px;
   padding-top: 30px;
@@ -75,7 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Be Vietnam Pro";
+  font-family: "DM Sans";
   color: var(--primary-400);
   font-size: 16px;
   cursor: pointer;
