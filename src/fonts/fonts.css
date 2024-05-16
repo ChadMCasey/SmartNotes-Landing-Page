@@ -27,3 +27,9 @@
   font-weight: 800;
   src: url("./DMSans-Black.ttf");
 }
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 400;
+  src: url("./BeVietnamPro-Regular.ttf");
+}

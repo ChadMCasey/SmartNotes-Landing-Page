@@ -6,7 +6,10 @@ const Features = () => {
   return (
     <section className="features">
       <div className="features__heading-container">
-        <h2 className="features__heading">Discover the Power of SmartNotes</h2>
+        <h2 className="features__heading">
+          Discover the Power of{" "}
+          <span className="features__text-gradient">SmartNotes</span>
+        </h2>
         <p className="features__subheading">
           SmartNotes is packed with innovative features designed to
           revolutionize the way you take notes, collaborate with others, and
@@ -14,9 +17,9 @@ const Features = () => {
         </p>
       </div>
       <div className="features__feature-container">
-        {features.map((obj) => {
+        {features.map((obj, i) => {
           return (
-            <div className="feature">
+            <div className={`feature ${obj.gridArea}`} key={i}>
               <img
                 src={obj.image}
                 alt={obj.heading}
@@ -28,6 +31,7 @@ const Features = () => {
           );
         })}
       </div>
+      <div className="features__overlay-gradient"></div>
     </section>
   );
 };

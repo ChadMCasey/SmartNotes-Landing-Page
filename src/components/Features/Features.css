@@ -1,3 +1,118 @@
 .features {
   padding: 70px 0px;
+  position: relative;
+}
+
+.features__heading-container {
+  margin-bottom: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__heading {
+  font-size: 48px;
+  font-family: "DM Sans";
+  letter-spacing: -0.3px;
+  color: var(--primary-100);
+  margin-top: 0px;
+  line-height: 80%;
+  margin-bottom: 24px;
+}
+
+.features__text-gradient {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 8px;
+  letter-spacing: -1.8px;
+  font-weight: 800;
+}
+
+.features__subheading {
+  max-width: 680px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  line-height: 150%;
+  color: var(--primary-100);
+  margin: 0px;
+  text-align: center;
+}
+
+.features__feature-container {
+  display: grid;
+  grid-template-areas:
+    "tl tl tr tr"
+    "bl blm brm br";
+  grid-template-columns: repeat(4, 271px);
+  place-content: center;
+  gap: 20px 24px;
+}
+
+.feature {
+  padding: 32px 32px 35px 32px;
+  border: 1px solid rgba(4, 140, 128, 0.5);
+  border-radius: 12px;
+}
+
+.feature.tl {
+  grid-area: tl;
+}
+
+.feature.tr {
+  grid-area: tr;
+}
+
+.features.bl {
+  grid-area: bl;
+}
+
+.features.blm {
+  grid-area: blm;
+}
+
+.features.brm {
+  grid-area: brm;
+}
+
+.features.br {
+  grid-area: br;
+}
+
+.feature__icon {
+  height: 32px;
+  width: 32px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid var(--secondary-200);
+}
+
+.feature__heading {
+  color: var(--primary-100);
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 150%;
+  font-family: "Be Vietnam Pro";
+}
+
+.feature__description {
+  color: var(--accent);
+  font-family: "DM Sans";
+  line-height: 150%;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.features__overlay-gradient {
+  background: center no-repeat
+    url("../../assets/features/radial-gradient-features.png");
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 45%;
+  left: 32%;
 }
