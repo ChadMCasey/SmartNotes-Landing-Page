@@ -2,12 +2,13 @@
   padding: 64px 0px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .video__container {
-  position: relative;
   overflow: none;
   max-height: 652px;
+  position: relative;
 }
 
 .video__overlay {
@@ -32,6 +33,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.video__play:hover {
+  box-shadow: 0px 15px 35px rgba(22, 28, 45, 0.3);
+  scale: 1.01;
 }
 
 .video-gradient {
@@ -39,11 +47,18 @@
 }
 
 .video__tl-gradient {
-  width: 425px;
-  height: 425px;
+  width: 600px;
+  height: 600px;
+  top: -215px;
+  left: -10px;
+  z-index: -1;
 }
 
-.video-br-gradient {
-  width: 345px;
-  height: 345px;
+.video__br-gradient {
+  width: 450px;
+  height: 450px;
+  top: 325px;
+  right: 10px;
+  z-index: -1;
+  transform: rotate(5deg);
 }

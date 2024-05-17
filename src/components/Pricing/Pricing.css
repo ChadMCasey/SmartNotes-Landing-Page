@@ -1,0 +1,94 @@
+.pricing {
+  padding: 96px 144px;
+}
+
+.pricing__heading {
+  font-family: "Be Vietnam Pro";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.64px;
+  color: var(--secondary-200);
+  margin-top: 0px;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.pricing__subheading {
+  color: var(--primary-100);
+  text-align: center;
+  margin: 0px;
+}
+
+.pricing__billing-section {
+  margin: 40px 0px;
+  display: flex;
+  column-gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__period-text {
+  color: var(--accent);
+  margin: 0px;
+}
+
+.pricing__savings {
+  color: var(--primary-400);
+}
+
+.toggle {
+  position: relative;
+  display: block;
+  width: 65px;
+  height: 33px;
+}
+
+.toggle__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle__circle {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 34px;
+  background-color: var(--primary-100);
+  transition: 0.4s ease-in-out;
+}
+
+.toggle__circle:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 6px;
+  bottom: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.toggle__input:checked + .toggle__circle {
+  background-color: var(--secondary-200);
+}
+
+.toggle__input:checked + .toggle__circle:before {
+  transform: translateX(32px);
+}
+
+.pricing__savings {
+  border-radius: 40px;
+  width: 92px;
+  height: 26px;
+  background: var(--gradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

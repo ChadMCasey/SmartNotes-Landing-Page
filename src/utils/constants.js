@@ -53,4 +53,22 @@ const features = [
   },
 ];
 
-export { logos, features };
+const pricingData = [
+  {
+    darkMode: false,
+    plan: "Individual Plan",
+    planIcon: new URL("../assets/pricing/individual-plan.svg", import.meta.url)
+      .href,
+    planPrice: "$9.99",
+    planPeriod: "/ month",
+    bullets: [
+      "Real-time collaboration",
+      "AI-powered organization",
+      "Customizable templates",
+      "5GB cloud storage",
+      "Basic integrations",
+    ],
+    CallToAction: "Start Free Trial",
+  },
+];
+export { logos, features, pricingData };

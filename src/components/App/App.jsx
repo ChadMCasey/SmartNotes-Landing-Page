@@ -61,7 +61,21 @@ const App = () => {
         />
       </Testimonial>
       <Video />
-      <Testimonial />
+      <Testimonial>
+        <h5 className="testimonial__heading">
+          The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever.
+        </h5>
+        <div className="testimonial__author-section">
+          <p className="testimonial__author">Sarah Johnson</p>
+          <p className="testimonial__organization">TechSavvy Solutions</p>
+        </div>
+        <img
+          src={DoubleQuotes}
+          alt="Double Quotes"
+          className="testimonial__quotes"
+        />
+      </Testimonial>
       <Pricing />
       <Testimonial />
       <FAQ />

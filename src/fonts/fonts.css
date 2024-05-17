@@ -33,3 +33,9 @@
   font-weight: 400;
   src: url("./BeVietnamPro-Regular.ttf");
 }
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 700;
+  src: url("./BeVietnamPro-Bold.ttf");
+}

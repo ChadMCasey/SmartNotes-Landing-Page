@@ -24,3 +24,21 @@
   padding: 0px;
   background-color: var(--primary-400);
 }
+
+.text-reg {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.text-med {
+  font-family: "DM Sans";
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.text-small {
+  font-family: "DM Sans";
+  font-size: 14px;
+  line-height: 140%;
+}
