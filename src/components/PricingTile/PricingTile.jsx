@@ -14,7 +14,8 @@ const PricingTile = ({
   darkMode,
 }) => {
   const dark = darkMode ? "dark" : "";
-  const price = planPeriod === "/ monthly" ? planPrice : planPrice * 12 * 0.75;
+  const price =
+    planPeriod === "/ monthly" ? "$" + planPrice : "$" + planPrice * 12 * 0.75;
 
   return (
     <div className={`pricing-tile ${dark}`}>

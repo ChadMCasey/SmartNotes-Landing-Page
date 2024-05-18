@@ -1,9 +1,12 @@
 .faq {
-  padding: 96px 320px;
+  padding: 96px 0px;
 }
 
 .faq__heading-section {
+  max-width: 800px;
+  margin: auto;
   margin-bottom: 72px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

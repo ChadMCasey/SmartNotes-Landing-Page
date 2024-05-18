@@ -1,0 +1,137 @@
+.footer__container {
+  padding: 80px 144px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.footer__company-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+}
+
+.footer__company {
+  font-family: "DM Sans";
+  font-weight: 700;
+  line-height: 140%;
+  font-size: 24px;
+  color: var(--primary-100);
+  margin: 0px;
+}
+
+.footer__input-container {
+  position: relative;
+  width: 290px;
+  height: 48px;
+  margin-top: 35px;
+}
+
+.footer__input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--secondary-200);
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0px 16px;
+}
+
+.footer__input::placeholder {
+  color: var(--primary-300);
+  font-family: "DM Sans";
+  font-size: 14px;
+}
+
+.footer__input-icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--secondary-200);
+  border-radius: 8px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.footer__input-icon:hover {
+  scale: 1.05;
+}
+
+.footer__content-right {
+  display: flex;
+  column-gap: 140px;
+}
+
+.footer__link-col {
+  width: max-content;
+}
+
+.text-reg.footer__col-heading {
+  margin-bottom: 4px;
+}
+
+.footer__link {
+  display: block;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.footer__col-heading {
+  color: var(--accent);
+}
+
+.footer__banner {
+  background-color: var(--secondary-200);
+  padding: 18px 160px 18px 144px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-300);
+}
+
+.footer__copywright {
+  display: flex;
+  align-items: center;
+}
+
+.underline {
+  color: var(--primary-300);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer__external-links {
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer__external-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0px;
+  border: none;
+  background-color: var(--secondary-300);
+}
+
+.facebook {
+  background: center no-repeat url("../../assets/footer/facebook.svg");
+}
+
+.linkedin {
+  background: center no-repeat url("../../assets/footer/linkedin.svg");
+}
+
+.twitter {
+  background: center no-repeat url("../../assets/footer/twitter.svg");
+}
+
+.youtube {
+  background: center no-repeat url("../../assets/footer/youtube.svg");
+}

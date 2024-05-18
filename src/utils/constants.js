@@ -107,6 +107,7 @@ const pricingData = [
 
 const faqItems = [
   {
+    id: 1,
     question: "What is SmartNotes?",
     answerHeading: "How do I get started with SmartNotes?",
     answer: `Getting started with SmartNotes is easy! Simply visit
@@ -115,6 +116,7 @@ const faqItems = [
              materials will guide you through the process.`,
   },
   {
+    id: 2,
     question: "What are the key features of SmartNotes?",
     answerHeading: "How do I get started with SmartNotes?",
     answer: `Getting started with SmartNotes is easy! Simply visit
@@ -123,6 +125,7 @@ const faqItems = [
              materials will guide you through the process.`,
   },
   {
+    id: 3,
     question: "How much does SmartNotes cost?",
     answerHeading: "How do I get started with SmartNotes?",
     answer: `Getting started with SmartNotes is easy! Simply visit
@@ -131,6 +134,7 @@ const faqItems = [
              materials will guide you through the process.`,
   },
   {
+    id: 4,
     question: "Who is SmartNotes for?",
     answerHeading: "How do I get started with SmartNotes?",
     answer: `Getting started with SmartNotes is easy! Simply visit
@@ -139,6 +143,7 @@ const faqItems = [
              materials will guide you through the process.`,
   },
   {
+    id: 5,
     question: "What is SmartNotes?",
     answerHeading: "How do I get started with SmartNotes?",
     answer: `Getting started with SmartNotes is easy! Simply visit

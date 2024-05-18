@@ -1,0 +1,64 @@
+.cta {
+  padding: 80px 0px;
+  position: relative;
+}
+
+.cta-content {
+  margin: auto;
+  max-width: 921px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-content__left {
+  max-width: 498px;
+}
+
+.h3.cta__heading {
+  color: #fff;
+  margin-top: 42px;
+  margin-bottom: 16px;
+}
+
+.text-reg.cta__description {
+  color: var(--accent);
+  margin-bottom: 48px;
+}
+
+.cta__button {
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  border-radius: 8px;
+  border: none;
+  background: var(--gradient);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.cta__button:hover {
+  scale: 1.01;
+}
+
+.cta__button-text {
+  font-family: "DM Sans";
+  margin: 0px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--primary-300);
+}
+
+.cta__button-icon {
+  height: 32px;
+  width: 32px;
+  box-sizing: border-box;
+  border: 1px solid var(--primary-300);
+  border-radius: 8px;
+}
+
+.cta__circle-gradient {
+  position: absolute;
+  top: -250px;
+}
