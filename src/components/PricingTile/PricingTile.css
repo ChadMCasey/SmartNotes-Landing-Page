@@ -1,5 +1,117 @@
 .pricing-tile {
+  flex-basis: 357px;
+  display: flex;
+  flex-direction: column;
   padding: 40px 32px;
-  border: 2px solid var(--secondary-200);
-  max-width: 357px;
+  outline: 2px solid var(--secondary-200);
+  border-radius: 10px;
+  background-color: var(--primary-50);
+}
+
+.pricing-tile.dark {
+  background-color: transparent;
+}
+
+.plan-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0px 8px;
+  margin-bottom: 32px;
+}
+
+.plan-section__icon {
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 1px solid var(--secondary-200);
+  border-radius: 4px;
+}
+
+.plan-section__plan {
+  color: var(--secondary-200);
+}
+
+.pricing-section {
+  display: flex;
+  align-items: end;
+  column-gap: 6px;
+  margin-bottom: 32px;
+}
+
+.h2.pricing-section__price {
+  color: var(--primary-300);
+  line-height: 0.8;
+}
+
+.pricing-section__price.dark {
+  color: var(--primary-50);
+}
+
+.pricing-section__period {
+  color: var(--primary-300);
+}
+
+.pricing-section__period.dark {
+  color: var(--secondary-200);
+}
+
+.bullets-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0px;
+  margin-bottom: 32px;
+}
+
+.pricing-bullet {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.pricing-bullet__check {
+  width: 17px;
+  height: 12px;
+}
+
+.pricing-bullet__text.dark {
+  color: var(--accent);
+}
+
+.pricing-cta {
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  padding: 0px;
+  border: 1px solid var(--secondary-200);
+  border-radius: 8px;
+}
+
+.pricing-cta.dark {
+  background: var(--gradient);
+}
+
+.pricing-cta__text {
+  color: var(--primary-400);
+}
+
+.pricing-cta__icon {
+  width: 27px;
+  height: 27px;
+  outline: 1px solid var(--secondary-200);
+  border-radius: 6px;
+}
+
+.pricing-cta__icon.dark {
+  outline: 1px solid var(--primary-300);
+}
+
+.pricing-tile__no-card {
+  text-align: center;
+  color: var(--primary-200);
 }

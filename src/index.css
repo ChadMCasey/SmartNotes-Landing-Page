@@ -29,16 +29,34 @@
   font-family: "DM Sans";
   font-size: 16px;
   line-height: 120%;
+  margin: 0px;
 }
 
 .text-med {
   font-family: "DM Sans";
   font-size: 18px;
   line-height: 150%;
+  margin: 0px;
 }
 
 .text-small {
   font-family: "DM Sans";
   font-size: 14px;
   line-height: 140%;
+  margin: 0px;
+}
+
+.text-tiny {
+  font-family: "DM Sans";
+  font-size: 12px;
+  line-height: 150%;
+  margin: 0px;
+}
+
+.h2 {
+  font-family: "DM Sans";
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -3px;
+  margin: 0px;
 }

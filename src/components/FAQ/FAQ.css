@@ -1,0 +1,21 @@
+.faq {
+  padding: 96px 320px;
+}
+
+.faq__heading-section {
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px 0px;
+}
+
+.faq__heading {
+  color: var(--primary-100);
+  text-align: center;
+}
+
+.faq__description {
+  color: var(--primary-200);
+  text-align: center;
+}

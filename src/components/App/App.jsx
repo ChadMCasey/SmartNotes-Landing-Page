@@ -16,6 +16,7 @@ import Pricing from "../Pricing/Pricing";
 import FAQ from "../FAQ/FAQ";
 import CTA from "../CTA/CTA";
 import Footer from "../Footer/Footer";
+import Accordion from "../Accordion/Accordion";
 
 // images
 import DoubleQuotes from "../../assets/double-quote.svg";
@@ -77,8 +78,24 @@ const App = () => {
         />
       </Testimonial>
       <Pricing />
-      <Testimonial />
-      <FAQ />
+      <Testimonial>
+        <h5 className="testimonial__heading">
+          The real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever.
+        </h5>
+        <div className="testimonial__author-section">
+          <p className="testimonial__author">Sarah Johnson</p>
+          <p className="testimonial__organization">TechSavvy Solutions</p>
+        </div>
+        <img
+          src={DoubleQuotes}
+          alt="Double Quotes"
+          className="testimonial__quotes"
+        />
+      </Testimonial>
+      <FAQ>
+        <Accordion />
+      </FAQ>
       <Testimonial />
       <CTA />
       <Footer />

@@ -9,7 +9,6 @@
   line-height: 120%;
   letter-spacing: -0.64px;
   color: var(--secondary-200);
-  margin-top: 0px;
   margin-bottom: 17px;
   text-align: center;
 }
@@ -17,7 +16,6 @@
 .pricing__subheading {
   color: var(--primary-100);
   text-align: center;
-  margin: 0px;
 }
 
 .pricing__billing-section {
@@ -30,7 +28,6 @@
 
 .pricing__period-text {
   color: var(--accent);
-  margin: 0px;
 }
 
 .pricing__savings {
@@ -91,4 +88,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.pricing__tile-section {
+  display: flex;
+  gap: 20px 40px;
 }

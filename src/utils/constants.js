@@ -22,34 +22,40 @@ const features = [
     gridArea: "tr",
     image: new URL("../assets/features/globe.svg", import.meta.url).href,
     heading: "Customizable Templates",
-    description: `Create custom templates for your recurring tasks or projects to save time and ensure consistency. Tailor SmartNotes to fit your unique workflow and preferences.`,
+    description: `Create custom templates for your recurring tasks or projects to save 
+                  time and ensure consistency. Tailor SmartNotes to fit your unique workflow 
+                  and preferences.`,
   },
   {
     gridArea: "bl",
     image: new URL("../assets/features/flag.svg", import.meta.url).href,
     heading: "Secure Cloud Storage",
-    description: `Rest easy knowing that your notes are securely stored in the cloud. Access your information from any device, anytime, without worrying about losing important data.`,
+    description: `Rest easy knowing that your notes are securely stored in the cloud. 
+                  Access your information from any device, anytime, without worrying about 
+                  losing important data.`,
   },
   {
     gridArea: "blm",
     image: new URL("../assets/features/graphic-circle.svg", import.meta.url)
       .href,
     heading: "Real-Time Collaboration",
-    description: `Collaborate seamlessly with your team members or classmates in real-time on shared notes and projects.`,
+    description: `Collaborate seamlessly with your team members or classmates 
+                  in real-time on shared notes and projects.`,
   },
   {
     gridArea: "brm",
     image: new URL("../assets/features/hash.svg", import.meta.url).href,
     heading: "AI-Powered Organization",
-    description:
-      "Our AI-powered organization feature categorizes and prioritizes your notes, making it easy to find what you need when you need it.",
+    description: `Our AI-powered organization feature categorizes and prioritizes your notes, 
+       making it easy to find what you need when you need it.`,
   },
   {
     gridArea: "br",
     image: new URL("../assets/features/branch.svg", import.meta.url).href,
     heading: "Integrations",
-    description:
-      "Connect SmartNotes with your favorite productivity tools like Google Drive, Trello, and Slack. Streamline your workflow by syncing data across platforms and enhancing collaboration.",
+    description: `Connect SmartNotes with your favorite productivity tools like Google Drive, 
+      Trello, and Slack. Streamline your workflow by syncing data across platforms 
+      and enhancing collaboration.`,
   },
 ];
 
@@ -59,8 +65,7 @@ const pricingData = [
     plan: "Individual Plan",
     planIcon: new URL("../assets/pricing/individual-plan.svg", import.meta.url)
       .href,
-    planPrice: "$9.99",
-    planPeriod: "/ month",
+    planPrice: 9.99,
     bullets: [
       "Real-time collaboration",
       "AI-powered organization",
@@ -70,5 +75,77 @@ const pricingData = [
     ],
     CallToAction: "Start Free Trial",
   },
+  {
+    darkMode: true,
+    plan: "Team Plan",
+    planIcon: new URL("../assets/pricing/team-plan.svg", import.meta.url).href,
+    planPrice: 19.99,
+    bullets: [
+      "Everything in the Individual Plan",
+      "Unlimited cloud storage",
+      "Advanced integrations",
+      "Team management and permissions",
+      "Shared templates and note libraries",
+    ],
+    CallToAction: "Start Free Trial",
+  },
+  {
+    darkMode: false,
+    plan: "Enterprise Plan",
+    planIcon: new URL("../assets/pricing/enterprise-plan.svg", import.meta.url)
+      .href,
+    bullets: [
+      "Everything in the Team Plan",
+      "Dedicated account manager",
+      "Enterprise-grade security",
+      "Customized onboarding",
+      "Advanced analytics",
+    ],
+    CallToAction: "Contact support",
+  },
 ];
-export { logos, features, pricingData };
+
+const faqItems = [
+  {
+    question: "What is SmartNotes?",
+    answerHeading: "How do I get started with SmartNotes?",
+    answer: `Getting started with SmartNotes is easy! Simply visit
+             our website, sign up for a free trial, and start exploring 
+             the features. Our intuitive interface and comprehensive onboarding 
+             materials will guide you through the process.`,
+  },
+  {
+    question: "What are the key features of SmartNotes?",
+    answerHeading: "How do I get started with SmartNotes?",
+    answer: `Getting started with SmartNotes is easy! Simply visit
+             our website, sign up for a free trial, and start exploring 
+             the features. Our intuitive interface and comprehensive onboarding 
+             materials will guide you through the process.`,
+  },
+  {
+    question: "How much does SmartNotes cost?",
+    answerHeading: "How do I get started with SmartNotes?",
+    answer: `Getting started with SmartNotes is easy! Simply visit
+             our website, sign up for a free trial, and start exploring 
+             the features. Our intuitive interface and comprehensive onboarding 
+             materials will guide you through the process.`,
+  },
+  {
+    question: "Who is SmartNotes for?",
+    answerHeading: "How do I get started with SmartNotes?",
+    answer: `Getting started with SmartNotes is easy! Simply visit
+             our website, sign up for a free trial, and start exploring 
+             the features. Our intuitive interface and comprehensive onboarding 
+             materials will guide you through the process.`,
+  },
+  {
+    question: "What is SmartNotes?",
+    answerHeading: "How do I get started with SmartNotes?",
+    answer: `Getting started with SmartNotes is easy! Simply visit
+             our website, sign up for a free trial, and start exploring 
+             the features. Our intuitive interface and comprehensive onboarding 
+             materials will guide you through the process.`,
+  },
+];
+
+export { logos, features, pricingData, faqItems };
