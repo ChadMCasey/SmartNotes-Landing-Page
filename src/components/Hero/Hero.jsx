@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero__column">
-        <h1 className="hero__heading">
+        <h1 className="h1 hero__heading">
           <span className="hero__heading-gradient">Intelligent</span>
           cloud-based{" "}
           <span className="hero__heading-gradient">note-taking</span>
           and collaboration tool
         </h1>
-        <p className="hero__subheading">
+        <p className="text-reg hero__subheading">
           Experience the power of smart note-taking and transform the way you
           work today.
         </p>
@@ -23,7 +23,7 @@ const Hero = () => {
             placeholder="Enter your email"
             className="hero__input"
           />
-          <button className="hero__submit">
+          <button className="text-reg hero__submit">
             Sign up
             <img src={heroArrow} alt="arrow" className="hero__arrow" />
           </button>

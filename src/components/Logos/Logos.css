@@ -1,8 +1,19 @@
 .logos {
-  padding: 26px 87px;
-  display: flex;
-  justify-content: space-between;
+  overflow: hidden;
+  padding: 33px 0px;
   position: relative;
+}
+
+.logos__slide {
+  white-space: nowrap;
+  max-width: calc(100% - (87px * 2));
+  text-align: center;
+  margin: auto;
+  animation: 35s rotate infinite linear;
+}
+
+.logo {
+  margin: 0px 40px;
 }
 
 .logos__overlay {
@@ -10,15 +21,23 @@
   top: 0;
   bottom: 0;
   width: calc(100% / 2);
-  background-color: red;
 }
 
-.logos__overlay_start {
+.logos__overlay_left {
   left: 0;
   background: linear-gradient(to left, rgba(8, 8, 8, 0), rgba(8, 8, 8, 1));
 }
 
-.logos__overlay_end {
+.logos__overlay_right {
   right: 0;
   background: linear-gradient(to right, rgba(8, 8, 8, 0), rgba(8, 8, 8, 1));
+}
+
+@keyframes rotate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

@@ -11,17 +11,17 @@ const Navigation = () => {
         <h3 className="navigation__name">SmartNotes</h3>
       </div>
       <ul className="navigation__link-section">
-        <a href="#" className="navigation__link">
+        <a href="#" className="text-reg navigation__link">
           Features
         </a>
-        <a href="#" className="navigation__link">
+        <a href="#" className="text-reg navigation__link">
           Pricing
         </a>
-        <a href="#" className="navigation__link">
+        <a href="#" className="text-reg navigation__link">
           Support
         </a>
       </ul>
-      <button className="navigation__cta">
+      <button className="text-reg navigation__cta">
         Get Started
         <img src={navigationArrow} alt="Arrow" className="navigation__arrow" />
       </button>

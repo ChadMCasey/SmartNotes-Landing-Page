@@ -101,7 +101,7 @@ const Footer = () => {
       </div>
       <div className="footer__banner">
         <p className="text-small footer__copywright">
-          @2024 SmartNotesI. All Rights Reserved.{" "}
+          @2024 SmartNotesI. All Rights Reserved.
           <a
             href="https://x.com/iamhervewabo"
             className="underline"

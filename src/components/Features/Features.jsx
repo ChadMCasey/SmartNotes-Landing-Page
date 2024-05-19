@@ -6,11 +6,11 @@ const Features = () => {
   return (
     <section className="features">
       <div className="features__heading-container">
-        <h2 className="features__heading">
+        <h2 className="h2 features__heading">
           Discover the Power of{" "}
-          <span className="features__text-gradient">SmartNotes</span>
+          <span className="h2 features__text-gradient">SmartNotes</span>
         </h2>
-        <p className="features__subheading">
+        <p className="text-reg features__subheading">
           SmartNotes is packed with innovative features designed to
           revolutionize the way you take notes, collaborate with others, and
           stay organized.
@@ -25,8 +25,8 @@ const Features = () => {
                 alt={obj.heading}
                 className="feature__icon"
               />
-              <p className="feature__heading">{obj.heading}</p>
-              <p className="feature__description">{obj.description}</p>
+              <p className="text-large feature__heading">{obj.heading}</p>
+              <p className="text-reg feature__description">{obj.description}</p>
             </div>
           );
         })}

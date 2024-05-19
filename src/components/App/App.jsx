@@ -31,13 +31,15 @@ const App = () => {
       </Header>
       <Logos />
       <Testimonial>
-        <h5 className="testimonial__heading">
+        <h5 className="h5 testimonial__heading">
           The real-time synchronization and AI-powered organization have made
           our workflow more efficient than ever.
         </h5>
         <div className="testimonial__author-section">
-          <p className="testimonial__author">Sarah Johnson</p>
-          <p className="testimonial__organization">TechSavvy Solutions</p>
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">
+            TechSavvy Solutions
+          </p>
         </div>
         <img
           src={DoubleQuotes}
@@ -47,13 +49,15 @@ const App = () => {
       </Testimonial>
       <Features />
       <Testimonial>
-        <h5 className="testimonial__heading">
+        <h5 className="h5 testimonial__heading">
           The real-time synchronization and AI-powered organization have made
           our workflow more efficient than ever.
         </h5>
         <div className="testimonial__author-section">
-          <p className="testimonial__author">Sarah Johnson</p>
-          <p className="testimonial__organization">TechSavvy Solutions</p>
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">
+            TechSavvy Solutions
+          </p>
         </div>
         <img
           src={DoubleQuotes}
@@ -63,13 +67,15 @@ const App = () => {
       </Testimonial>
       <Video />
       <Testimonial>
-        <h5 className="testimonial__heading">
+        <h5 className="h5 testimonial__heading">
           The real-time synchronization and AI-powered organization have made
           our workflow more efficient than ever.
         </h5>
         <div className="testimonial__author-section">
-          <p className="testimonial__author">Sarah Johnson</p>
-          <p className="testimonial__organization">TechSavvy Solutions</p>
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">
+            TechSavvy Solutions
+          </p>
         </div>
         <img
           src={DoubleQuotes}
@@ -79,13 +85,15 @@ const App = () => {
       </Testimonial>
       <Pricing />
       <Testimonial>
-        <h5 className="testimonial__heading">
+        <h5 className="h5 testimonial__heading">
           The real-time synchronization and AI-powered organization have made
           our workflow more efficient than ever.
         </h5>
         <div className="testimonial__author-section">
-          <p className="testimonial__author">Sarah Johnson</p>
-          <p className="testimonial__organization">TechSavvy Solutions</p>
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">
+            TechSavvy Solutions
+          </p>
         </div>
         <img
           src={DoubleQuotes}
@@ -97,13 +105,15 @@ const App = () => {
         <Accordion />
       </FAQ>
       <Testimonial>
-        <h5 className="testimonial__heading">
+        <h5 className="h5 testimonial__heading">
           The real-time synchronization and AI-powered organization have made
           our workflow more efficient than ever.
         </h5>
         <div className="testimonial__author-section">
-          <p className="testimonial__author">Sarah Johnson</p>
-          <p className="testimonial__organization">TechSavvy Solutions</p>
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">
+            TechSavvy Solutions
+          </p>
         </div>
         <img
           src={DoubleQuotes}

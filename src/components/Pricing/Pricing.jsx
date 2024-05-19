@@ -15,7 +15,7 @@ const Pricing = () => {
   return (
     <section className="pricing">
       <div className="pricing__heading-section">
-        <h3 className="pricing__heading">Pricing & Plans</h3>
+        <h3 className="h3 pricing__heading">Pricing & Plans</h3>
         <p className="text-reg pricing__subheading">
           With lots of unique blocks, you can easily build a page without
           coding. Build your next landing page.

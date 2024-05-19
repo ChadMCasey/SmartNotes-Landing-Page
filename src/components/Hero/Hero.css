@@ -5,17 +5,12 @@
   column-gap: 101px;
 }
 
-.hero__heading {
+.h1.hero__heading {
   margin-top: 74px;
   margin-bottom: 16px;
 
   color: var(--primary-100);
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-size: 56px;
-
   letter-spacing: -2.5px;
-  line-height: 106%;
 }
 
 .hero__heading-gradient {
@@ -27,13 +22,8 @@
   font-weight: 900;
 }
 
-.hero__subheading {
-  font-size: 16px;
+.text-reg.hero__subheading {
   color: var(--primary-100);
-  font-family: "DM Sans";
-  font-weight: 400;
-  line-height: 150%;
-  margin-top: 0px;
   margin-bottom: 50px;
 }
 
@@ -76,9 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "DM Sans";
   color: var(--primary-400);
-  font-size: 16px;
   cursor: pointer;
   transition: all 0.1s;
 }

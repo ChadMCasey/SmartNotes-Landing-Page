@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(4, 140, 129, 0.5);
+  border-bottom: 1px solid rgba(4, 140, 129, 0.3);
 }
 
 .navigation__logo-section {
@@ -33,11 +33,8 @@
 }
 
 .navigation__link {
-  font-family: "DM Sans";
-  line-height: 150%;
-  font-size: 16px;
-  text-decoration: none;
   color: var(--primary-100);
+  text-decoration: none;
 }
 
 .navigation__cta {
@@ -49,11 +46,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "DM Sans";
   background: var(--gradient);
   color: var(--primary-400);
-  font-size: 16px;
-  line-height: 150%;
   cursor: pointer;
   transition: all 0.1s;
 }

@@ -2,12 +2,7 @@
   padding: 96px 144px;
 }
 
-.pricing__heading {
-  font-family: "Be Vietnam Pro";
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 120%;
-  letter-spacing: -0.64px;
+.h3.pricing__heading {
   color: var(--secondary-200);
   margin-bottom: 17px;
   text-align: center;

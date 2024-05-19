@@ -27,11 +27,6 @@
   border: 1px solid var(--secondary-200);
 }
 
-.accordion-item__answer-icon {
-  transform: rotate(-45deg);
-  transition: transform 0.5s ease-in-out;
-}
-
 .accordion-item__answer {
   max-height: 0;
   visibility: hidden;
@@ -43,8 +38,11 @@
   background-color: var(--accent);
   border: 1px solid var(--secondary-200);
   border-radius: 16px;
-  transition: max-height 0.4s ease-in-out, visibility 0.2s ease-in-out,
-    opacity 0.2s ease-in-out, margin 0.4s ease-in-out;
+  transition:
+    max-height 0.4s ease-in-out,
+    visibility 0.2s ease-in-out,
+    opacity 0.2s ease-in-out,
+    margin 0.4s ease-in-out;
 }
 
 .accordion-item__answer.visible {
@@ -52,12 +50,6 @@
   visibility: visible;
   margin-top: 20px;
   opacity: 1;
-}
-
-.accordion-item__answer.visible
-  > .accordion-item__heading-container
-  > .accordion-item__answer-icon {
-  transform: rotate(0deg);
 }
 
 .accordion-item__heading-container {

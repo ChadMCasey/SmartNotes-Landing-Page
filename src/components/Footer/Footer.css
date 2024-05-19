@@ -61,7 +61,7 @@
 }
 
 .footer__input-icon:hover {
-  scale: 1.05;
+  scale: 1.02;
 }
 
 .footer__content-right {
@@ -104,6 +104,8 @@
   color: var(--primary-300);
   text-decoration: underline;
   cursor: pointer;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .footer__external-links {
@@ -118,6 +120,12 @@
   padding: 0px;
   border: none;
   background-color: var(--secondary-300);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.footer__external-link:hover {
+  scale: 1.02;
 }
 
 .facebook {
