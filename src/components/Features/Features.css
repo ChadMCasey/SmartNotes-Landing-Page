@@ -20,7 +20,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-right: 8px;
   letter-spacing: -1.8px;
   font-weight: 800;
 }
@@ -55,19 +54,19 @@
   grid-area: tr;
 }
 
-.features.bl {
+.feature.bl {
   grid-area: bl;
 }
 
-.features.blm {
+.feature.blm {
   grid-area: blm;
 }
 
-.features.brm {
+.feature.brm {
   grid-area: brm;
 }
 
-.features.br {
+.feature.br {
   grid-area: br;
 }
 

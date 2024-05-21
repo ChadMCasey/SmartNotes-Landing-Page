@@ -6,7 +6,7 @@ import { pricingData } from "../../utils/constants";
 const Pricing = () => {
   const [planPeriod, setPlanPeriod] = useState("/ monthly");
 
-  const planPeriodToggle = (e) => {
+  const planPeriodToggle = () => {
     planPeriod === "/ monthly"
       ? setPlanPeriod("/ yearly")
       : setPlanPeriod("/ monthly");
@@ -28,7 +28,7 @@ const Pricing = () => {
           <span className="toggle__circle" onClick={planPeriodToggle}></span>
         </label>
         <p className="text-med pricing__period-text">Yearly</p>
-        <div className="text-small pricing__savings">Save 25%</div>
+        <span className="text-small pricing__savings">Save 25%</span>
       </div>
       <div className="pricing__tile-section">
         {pricingData.map((tile, i) => {

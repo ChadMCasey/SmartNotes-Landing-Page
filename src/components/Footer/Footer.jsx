@@ -1,99 +1,96 @@
 import React from "react";
 import "./Footer.css";
-import icon from "../../assets/logo.svg";
+import logo from "../../assets/logo.svg";
 import arrow from "../../assets/colored-arrow.svg";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <footer className="footer">
       <div className="footer__container">
         <div className="footer__content-left">
           <div className="footer__company-container">
-            <img className="footer__logo" src={icon} alt="icon" />
+            <img className="footer__logo" src={logo} alt="icon" />
             <h2 className="footer__company">SmartNotes</h2>
           </div>
           <div className="footer__input-container">
             <input
               className="footer__input"
+              type="email"
               placeholder="Enter email"
-              type="text"
             />
-            <img className="footer__input-icon" src={arrow} alt="arrow icon" />
+            <img className="footer__input-icon" src={arrow} alt="arrow" />
           </div>
         </div>
         <div className="footer__content-right">
           <div className="footer__link-col">
             <p className="text-reg footer__col-heading">Product</p>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               About
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Features
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Pricing
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Integrations
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               FAQs
             </a>
           </div>
           <div className="footer__link-col">
             <p className="text-reg footer__col-heading">Company</p>
-
-            <a className="text-small footer__link" href="#">
-              Out Story
+            <a href="#" className="text-small footer__link">
+              Our Story
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Team
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Careers
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Press
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Contact Us
             </a>
           </div>
           <div className="footer__link-col">
             <p className="text-reg footer__col-heading">Resources</p>
-
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Blog
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Webinars
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Case Studies
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Templates
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Help Center
             </a>
           </div>
           <div className="footer__link-col">
             <p className="text-reg footer__col-heading">Legal</p>
-
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Terms of Service
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Privacy Policy
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Cookie Policy
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Acceptable Use
             </a>
-            <a className="text-small footer__link" href="#">
+            <a href="#" className="text-small footer__link">
               Refund Policy
             </a>
           </div>
@@ -101,7 +98,7 @@ const Footer = () => {
       </div>
       <div className="footer__banner">
         <p className="text-small footer__copywright">
-          @2024 SmartNotesI. All Rights Reserved.
+          @2024 SmartNotes. All Rights Reserved.
           <a
             href="https://x.com/iamhervewabo"
             className="underline"
@@ -117,7 +114,7 @@ const Footer = () => {
           <button className="footer__external-link youtube"></button>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

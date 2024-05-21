@@ -8,12 +8,12 @@
 .footer__company-container {
   display: flex;
   align-items: center;
+  column-gap: 8px;
 }
 
 .footer__logo {
   width: 38px;
   height: 38px;
-  margin-right: 8px;
 }
 
 .footer__company {
@@ -61,12 +61,12 @@
 }
 
 .footer__input-icon:hover {
-  scale: 1.02;
+  scale: 1.01;
 }
 
 .footer__content-right {
   display: flex;
-  column-gap: 140px;
+  column-gap: 80px;
 }
 
 .footer__link-col {
@@ -102,7 +102,6 @@
 
 .underline {
   color: var(--primary-300);
-  text-decoration: underline;
   cursor: pointer;
   display: inline-block;
   margin-left: 5px;
@@ -121,11 +120,11 @@
   border: none;
   background-color: var(--secondary-300);
   cursor: pointer;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .footer__external-link:hover {
-  scale: 1.02;
+  scale: 1.08;
 }
 
 .facebook {

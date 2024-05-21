@@ -9,10 +9,7 @@
 .navigation__logo-section {
   display: flex;
   align-items: center;
-}
-
-.navigation__logo {
-  margin-right: 8px;
+  column-gap: 8px;
 }
 
 .navigation__name {
@@ -46,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 8px;
   background: var(--gradient);
   color: var(--primary-400);
   cursor: pointer;
@@ -57,7 +55,6 @@
 }
 
 .navigation__arrow {
-  margin-left: 8px;
   height: 24px;
   width: 24px;
   border: 1px solid var(--primary-300);

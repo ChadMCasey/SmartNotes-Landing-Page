@@ -34,12 +34,11 @@
   transform: translate(-50%, -50%);
   z-index: 1;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .video__play:hover {
   box-shadow: 0px 15px 35px rgba(22, 28, 45, 0.3);
-  scale: 1.01;
 }
 
 .video-gradient {

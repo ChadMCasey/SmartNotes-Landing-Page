@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navigation.css";
 import logo from "../../assets/logo.svg";
-import navigationArrow from "../../assets/arrow.svg";
+import arrow from "../../assets/arrow.svg";
 
 const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="navigation__logo-section">
-        <img className="navigation__logo" src={logo} alt="Logo" />
+        <img className="navigation__logo" src={logo} alt="logo" />
         <h3 className="navigation__name">SmartNotes</h3>
       </div>
       <ul className="navigation__link-section">
@@ -23,7 +23,7 @@ const Navigation = () => {
       </ul>
       <button className="text-reg navigation__cta">
         Get Started
-        <img src={navigationArrow} alt="Arrow" className="navigation__arrow" />
+        <img className="navigation__arrow" src={arrow} alt="arrow" />
       </button>
     </nav>
   );

@@ -6,19 +6,17 @@
   max-width: 800px;
   margin: auto;
   margin-bottom: 72px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px 0px;
+  text-align: center;
 }
 
 .faq__heading {
   color: var(--primary-100);
-  text-align: center;
 }
 
 .faq__description {
   color: var(--primary-200);
-  text-align: center;
 }

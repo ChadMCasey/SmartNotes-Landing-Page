@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { faqItems } from "../../utils/constants";
 import "./Accordion.css";
 import AccordionItem from "../AccordionItem/AccordionItem";
+import { faqItems } from "../../utils/constants";
 
 const Accordion = () => {
   const [openQuestion, setOpenQuestion] = useState(-1);
-
   return (
     <div className="accordion">
       {faqItems.map((item) => {

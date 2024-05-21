@@ -1,7 +1,10 @@
 import React from "react";
-
-// css
 import "./App.css";
+
+//images
+import doubleQoute from "../../assets/double-quote.svg";
+
+// fonts
 import "../../fonts/fonts.css";
 
 // components
@@ -17,9 +20,6 @@ import FAQ from "../FAQ/FAQ";
 import CTA from "../CTA/CTA";
 import Footer from "../Footer/Footer";
 import Accordion from "../Accordion/Accordion";
-
-// images
-import DoubleQuotes from "../../assets/double-quote.svg";
 import Navigation from "../Navigation/Navigation";
 
 const App = () => {
@@ -41,11 +41,7 @@ const App = () => {
             TechSavvy Solutions
           </p>
         </div>
-        <img
-          src={DoubleQuotes}
-          alt="Double Quotes"
-          className="testimonial__quotes"
-        />
+        <img className="testimonial__quotes" src={doubleQoute} alt="quote" />
       </Testimonial>
       <Features />
       <Testimonial>
@@ -59,11 +55,7 @@ const App = () => {
             TechSavvy Solutions
           </p>
         </div>
-        <img
-          src={DoubleQuotes}
-          alt="Double Quotes"
-          className="testimonial__quotes"
-        />
+        <img className="testimonial__quotes" src={doubleQoute} alt="quote" />
       </Testimonial>
       <Video />
       <Testimonial>
@@ -77,11 +69,7 @@ const App = () => {
             TechSavvy Solutions
           </p>
         </div>
-        <img
-          src={DoubleQuotes}
-          alt="Double Quotes"
-          className="testimonial__quotes"
-        />
+        <img className="testimonial__quotes" src={doubleQoute} alt="quote" />
       </Testimonial>
       <Pricing />
       <Testimonial>
@@ -95,11 +83,7 @@ const App = () => {
             TechSavvy Solutions
           </p>
         </div>
-        <img
-          src={DoubleQuotes}
-          alt="Double Quotes"
-          className="testimonial__quotes"
-        />
+        <img className="testimonial__quotes" src={doubleQoute} alt="quote" />
       </Testimonial>
       <FAQ>
         <Accordion />
@@ -115,11 +99,7 @@ const App = () => {
             TechSavvy Solutions
           </p>
         </div>
-        <img
-          src={DoubleQuotes}
-          alt="Double Quotes"
-          className="testimonial__quotes"
-        />
+        <img className="testimonial__quotes" src={doubleQoute} alt="quote" />
       </Testimonial>
       <CTA />
       <Footer />

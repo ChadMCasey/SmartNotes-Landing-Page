@@ -19,14 +19,18 @@ const CTA = () => {
           </p>
           <button className="cta__button">
             <p className="cta__button-text">Sign Up for Free</p>
-            <img src={arrow} alt="arrow" className="cta__button-icon" />
+            <img className="cta__button-icon" src={arrow} alt="arrow" />
           </button>
         </div>
         <div className="cta-content__right">
           <img className="cta__shapes" src={ctaShapes} alt="graphic shapes" />
         </div>
       </div>
-      <img className="cta__circle-gradient" src={circleGradient} />
+      <img
+        className="cta__circle-gradient"
+        src={circleGradient}
+        alt="circle gradient"
+      />
     </section>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./PricingTile.css";
 import check from "../../assets/check.png";
 import arrowDark from "../../assets/arrow.svg";
@@ -16,7 +16,6 @@ const PricingTile = ({
   const dark = darkMode ? "dark" : "";
   const price =
     planPeriod === "/ monthly" ? "$" + planPrice : "$" + planPrice * 12 * 0.75;
-
   return (
     <div className={`pricing-tile ${dark}`}>
       <div className="plan-section">
@@ -35,11 +34,7 @@ const PricingTile = ({
         {bullets.map((bullet, i) => {
           return (
             <div className="pricing-bullet" key={i}>
-              <img
-                className="text-reg pricing-bullet__check"
-                src={check}
-                alt="check"
-              />
+              <img className="pricing-bullet__check" src={check} alt="check" />
               <p className={`text-reg pricing-bullet__text ${dark}`}>
                 {bullet}
               </p>
@@ -52,9 +47,10 @@ const PricingTile = ({
         <img
           className={`pricing-cta__icon ${dark}`}
           src={darkMode ? arrowDark : arrowLight}
+          alt="arrow"
         />
       </button>
-      <p className={`text-tiny pricing-tile__no-card ${dark}`}>
+      <p className="text-tiny pricing-tile__no-card">
         {planPrice ? "No credit card required" : ""}
       </p>
     </div>

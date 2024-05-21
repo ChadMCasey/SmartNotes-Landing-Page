@@ -20,9 +20,9 @@ const AccordionItem = ({ item, setOpenQuestion, openQuestion }) => {
       >
         <p className="text-med accordion-item__question">{question}</p>
         <img
+          className="accordion-icon accordion-item__icon"
           src={arrow}
           alt="arrow"
-          className="accordion-item__icon accordion-icon"
         />
       </button>
       <div className={`accordion-item__answer ${open ? "visible" : ""}`}>
@@ -31,9 +31,9 @@ const AccordionItem = ({ item, setOpenQuestion, openQuestion }) => {
             {answerHeading}
           </p>
           <img
+            className="accordion-icon accordion-item__answer-icon"
             src={arrowRight}
             alt="arrow"
-            className="accordion-item__answer-icon accordion-icon"
           />
         </div>
         <p className="text-reg accordion-item__answer-description">{answer}</p>

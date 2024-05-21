@@ -1,7 +1,7 @@
 import React from "react";
-import heroArrow from "../../assets/arrow.svg";
-import abstractShapes from "../../assets/abstract-shapes.png";
 import "./Hero.css";
+import arrow from "../../assets/arrow.svg";
+import abstractShapes from "../../assets/abstract-shapes.png";
 
 const Hero = () => {
   return (
@@ -19,21 +19,21 @@ const Hero = () => {
         </p>
         <div className="hero__input-container">
           <input
+            className="hero__input"
             type="email"
             placeholder="Enter your email"
-            className="hero__input"
           />
           <button className="text-reg hero__submit">
             Sign up
-            <img src={heroArrow} alt="arrow" className="hero__arrow" />
+            <img className="hero__arrow" src={arrow} alt="arrow" />
           </button>
         </div>
       </div>
       <div className="hero__column">
         <img
+          className="hero__graphic"
           src={abstractShapes}
           alt="abstract shapes"
-          className="hero__graphic"
         />
       </div>
     </section>

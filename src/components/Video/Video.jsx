@@ -8,19 +8,19 @@ const Video = () => {
   return (
     <section className="video">
       <div className="video__container">
-        <img className="video__image" src={videoImg} alt="Video" />
+        <img className="video__image" src={videoImg} alt="video" />
         <button className="video__play"></button>
         <div className="video__overlay"></div>
       </div>
       <img
+        className="video-gradient video__tl-gradient"
         src={TLgradient}
         alt="gradient"
-        className="video-gradient video__tl-gradient"
       />
       <img
+        className="video-gradient video__br-gradient"
         src={BRgradient}
         alt="gradient"
-        className="video-gradient video__br-gradient"
       />
     </section>
   );

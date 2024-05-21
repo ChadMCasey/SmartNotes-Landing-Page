@@ -7,9 +7,8 @@
 .logos__slide {
   white-space: nowrap;
   max-width: calc(100% - (87px * 2));
-  text-align: center;
   margin: auto;
-  animation: 35s rotate infinite linear;
+  animation: 40s rotate infinite linear;
 }
 
 .logo {
@@ -25,12 +24,11 @@
 
 .logos__overlay_left {
   left: 0;
-  background: linear-gradient(to left, rgba(8, 8, 8, 0), rgba(8, 8, 8, 1));
+  background: linear-gradient(to left, rgba(8, 8, 8, 0), rgb(8, 8, 8));
 }
-
 .logos__overlay_right {
   right: 0;
-  background: linear-gradient(to right, rgba(8, 8, 8, 0), rgba(8, 8, 8, 1));
+  background: linear-gradient(to right, rgba(8, 8, 8, 0), rgb(8, 8, 8));
 }
 
 @keyframes rotate {

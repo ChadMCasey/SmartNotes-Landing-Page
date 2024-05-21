@@ -21,9 +21,9 @@ const Features = () => {
           return (
             <div className={`feature ${obj.gridArea}`} key={i}>
               <img
+                className="feature__icon"
                 src={obj.image}
                 alt={obj.heading}
-                className="feature__icon"
               />
               <p className="text-large feature__heading">{obj.heading}</p>
               <p className="text-reg feature__description">{obj.description}</p>

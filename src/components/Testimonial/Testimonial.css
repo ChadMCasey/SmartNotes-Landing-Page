@@ -1,6 +1,5 @@
 .testimonial {
   padding: 64px;
-  color: white;
 }
 
 .testimonial__container {
@@ -22,6 +21,7 @@
   height: 43px;
   justify-content: center;
   align-items: end;
+  color: var(--primary-100);
 }
 
 .testimonial__organization {
@@ -33,6 +33,6 @@
   position: absolute;
   height: 24px;
   width: 37px;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
 }

@@ -7,10 +7,10 @@ const Logos = () => {
     <section className="logos">
       <div className="logos__slide">
         {logos.map((img, i) => (
-          <img src={img} key={i} alt="Logo" className="logo" />
+          <img className="logo" src={img} alt="logo" key={i} />
         ))}
         {logos.map((img, i) => (
-          <img src={img} key={i} alt="Logo" className="logo" />
+          <img className="logo" src={img} alt="logo" key={i} />
         ))}
       </div>
       <div className="logos__overlay logos__overlay_left"></div>

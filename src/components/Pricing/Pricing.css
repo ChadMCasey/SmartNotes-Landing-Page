@@ -27,6 +27,13 @@
 
 .pricing__savings {
   color: var(--primary-400);
+  border-radius: 40px;
+  width: 92px;
+  height: 26px;
+  background: var(--gradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .toggle {
@@ -48,14 +55,14 @@
   cursor: pointer;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   border-radius: 34px;
   background-color: var(--primary-100);
   transition: 0.4s ease-in-out;
 }
 
-.toggle__circle:before {
+.toggle__circle::before {
   position: absolute;
   content: "";
   height: 21px;
@@ -73,16 +80,6 @@
 
 .toggle__input:checked + .toggle__circle:before {
   transform: translateX(32px);
-}
-
-.pricing__savings {
-  border-radius: 40px;
-  width: 92px;
-  height: 26px;
-  background: var(--gradient);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .pricing__tile-section {
